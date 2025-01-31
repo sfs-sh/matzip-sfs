@@ -19,8 +19,10 @@ import WebView, {
 } from 'react-native-webview';
 
 const REDIRECT_URI = `${
-  Platform.OS === 'ios' ? 'http://localhost:3030/' : 'http://10.0.2.2:3030/'
+  'http://3.141.200.250:3030/'
 }auth/oauth/kakao`;
+
+
 
 function KakaoLoginScreen() {
   const {theme} = useThemeStore();
